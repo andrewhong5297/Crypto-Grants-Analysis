@@ -1,58 +1,58 @@
 grant_source,grantee,grant_date,grant_token_address,grant_amount,grant_name,grant_type,grant_category,grant_distribution,grant_blockchains, dune_namespaces 
-arbitrum,Gains Network,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,4500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['gains','gains_network','gains_network_usdc'] "
-arbitrum,Synapse,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6549,2000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['synapse','synapseerc20'] "
-arbitrum,Stargate Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6550,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stargate'] 
-arbitrum,Wormhole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6551,1800000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['wormhole'] 
-arbitrum,Magpie,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6552,1250000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['magpie','magpie_beta'] "
-arbitrum,WOOFi,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6553,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['woofi','woofi_earn','woofi_staking_v2','woofi_swap'] "
-arbitrum,RabbitHole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6554,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['rabbithole'] 
-arbitrum,dForce,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6555,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['dforcearb'] 
-arbitrum,Vela,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6556,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['vela','vela_exchange'] "
-arbitrum,Shell Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6557,750000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['shellprotocol'] 
-arbitrum,Notional,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6558,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['notional_finance_v3'] 
-arbitrum,Thales,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6559,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['thales'] 
-arbitrum,Sanko,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6560,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['sanko','sankotv','sankotvgifts','sankowager'] "
-arbitrum,unshETH,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6561,375000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['unsheth'] 
-arbitrum,Realm,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6562,300000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['realmverse'] 
-arbitrum,Rodeo Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6563,250000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['rodeofinance','rodeo_finance'] "
-arbitrum,Ramses,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6564,248000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['ramses'] 
-arbitrum,DefiEdge,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6565,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['defiedge'] 
-arbitrum,Savvy,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6566,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['savvy'] 
-arbitrum,Thetanuts Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6567,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['thetanuts'] 
-arbitrum,Jojo Exchange,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6568,200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['jojo','jojo_btc','jojo_dealer','jojo_eth'] "
-arbitrum,StakeDAO,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6569,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stakedao'] 
-arbitrum,Tide,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6570,80000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['tide'] 
-arbitrum,Furucombo,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6571,59500,STIP Round 1,proactive,growth,claim,['arbitrum'], ['furucombo'] 
-arbitrum,Tales of Elleria,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6572,50000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['tales_of_elleria'] 
-arbitrum,Solv Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6573,50000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['solv_v3'] 
-arbitrum,GMX,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6574,12000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['bonusgmx','gmx','gmx_blueberry_club','gmxtest','gmx_v2','gmx_v2_datastore'] "
-arbitrum,MUX Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6575,6000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['mux'] 
-arbitrum,Camelot,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6576,3090000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['camelot','camelot_v3'] "
-arbitrum,Vertex,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6577,3000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['vertex'] 
-arbitrum,Radiant,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6578,2852044,STIP Round 1,proactive,growth,claim,['arbitrum'], ['radiant_capital'] 
-arbitrum,JonesDAO,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6579,2000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['jones','jones_token','jones_updated_wjaura','jones_updated_wjaura_deployment'] "
-arbitrum,Pendle,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6580,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['pendle'] 
-arbitrum,Trader Joe,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6581,1510000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['trader_joe','trader_joe_v2_1'] "
-arbitrum,Dopex,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6582,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['dopex','dopex_active','dopex_protocol','dopex_v2'] "
-arbitrum,Frax Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6583,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['frax','fraxfinance','fraxlend','fraxswap'] "
-arbitrum,KyberSwap,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6584,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['kyber','kyberswap','kybernetworkcrystal'] "
-arbitrum,Abracadabra,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6585,1500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['abracadabra'] 
-arbitrum,Balancer,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6586,1200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['balancer','balancer_v2'] "
-arbitrum,Dolomite,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6587,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['dolomite','dolomite_test'] "
-arbitrum,Socket Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6588,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['socket','socket_v2'] "
-arbitrum,Silo,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6589,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['silo','silo_finance'] "
-arbitrum,Premia,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6590,900000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['premia','premia_blue','premia_v2'] "
-arbitrum,Perennial,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6591,750000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['perennial','perennial_v2'] "
-arbitrum,Umami Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6592,750000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['umami'] 
-arbitrum,Lodestar,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6593,700000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['lodestar'] 
-arbitrum,Gamma,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6594,750000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['gamma','gammaswap'] "
-arbitrum,Angle,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6595,700000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['angle'] 
-arbitrum,Galxe,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6596,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['project_galaxy'] 
-arbitrum,Rysk,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6597,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['rysk','rysk_beyond','rysk_opyn','rysk_stip'] "
-arbitrum,OpenOcean,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6598,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['openocean'] 
-arbitrum,WINR,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6599,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['legacy_winr','vested_winr','winr_protocol'] "
-arbitrum,Timeswap,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6600,200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['timeswap','timeswap_v2'] "
-arbitrum,Tally,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6601,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], [] 
-arbitrum,Good Entry,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6602,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['goodentry'] 
-arbitrum,Stella,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6603,186000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stellaxyz'] 
+arbitrumDAO,Gains Network,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,4500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['gains','gains_network','gains_network_usdc'] "
+arbitrumDAO,Synapse,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6549,2000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['synapse','synapseerc20'] "
+arbitrumDAO,Stargate Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6550,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stargate'] 
+arbitrumDAO,Wormhole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6551,1800000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['wormhole'] 
+arbitrumDAO,Magpie,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6552,1250000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['magpie','magpie_beta'] "
+arbitrumDAO,WOOFi,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6553,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['woofi','woofi_earn','woofi_staking_v2','woofi_swap'] "
+arbitrumDAO,RabbitHole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6554,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['rabbithole'] 
+arbitrumDAO,dForce,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6555,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['dforcearb'] 
+arbitrumDAO,Vela,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6556,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['vela','vela_exchange'] "
+arbitrumDAO,Shell Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6557,750000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['shellprotocol'] 
+arbitrumDAO,Notional,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6558,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['notional_finance_v3'] 
+arbitrumDAO,Thales,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6559,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['thales'] 
+arbitrumDAO,Sanko,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6560,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['sanko','sankotv','sankotvgifts','sankowager'] "
+arbitrumDAO,unshETH,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6561,375000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['unsheth'] 
+arbitrumDAO,Realm,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6562,300000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['realmverse'] 
+arbitrumDAO,Rodeo Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6563,250000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['rodeofinance','rodeo_finance'] "
+arbitrumDAO,Ramses,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6564,248000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['ramses'] 
+arbitrumDAO,DefiEdge,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6565,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['defiedge'] 
+arbitrumDAO,Savvy,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6566,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['savvy'] 
+arbitrumDAO,Thetanuts Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6567,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['thetanuts'] 
+arbitrumDAO,Jojo Exchange,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6568,200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['jojo','jojo_btc','jojo_dealer','jojo_eth'] "
+arbitrumDAO,StakeDAO,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6569,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stakedao'] 
+arbitrumDAO,Tide,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6570,80000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['tide'] 
+arbitrumDAO,Furucombo,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6571,59500,STIP Round 1,proactive,growth,claim,['arbitrum'], ['furucombo'] 
+arbitrumDAO,Tales of Elleria,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6572,50000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['tales_of_elleria'] 
+arbitrumDAO,Solv Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6573,50000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['solv_v3'] 
+arbitrumDAO,GMX,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6574,12000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['bonusgmx','gmx','gmx_blueberry_club','gmxtest','gmx_v2','gmx_v2_datastore'] "
+arbitrumDAO,MUX Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6575,6000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['mux'] 
+arbitrumDAO,Camelot,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6576,3090000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['camelot','camelot_v3'] "
+arbitrumDAO,Vertex,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6577,3000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['vertex'] 
+arbitrumDAO,Radiant,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6578,2852044,STIP Round 1,proactive,growth,claim,['arbitrum'], ['radiant_capital'] 
+arbitrumDAO,JonesDAO,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6579,2000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['jones','jones_token','jones_updated_wjaura','jones_updated_wjaura_deployment'] "
+arbitrumDAO,Pendle,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6580,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['pendle'] 
+arbitrumDAO,Trader Joe,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6581,1510000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['trader_joe','trader_joe_v2_1'] "
+arbitrumDAO,Dopex,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6582,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['dopex','dopex_active','dopex_protocol','dopex_v2'] "
+arbitrumDAO,Frax Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6583,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['frax','fraxfinance','fraxlend','fraxswap'] "
+arbitrumDAO,KyberSwap,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6584,1500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['kyber','kyberswap','kybernetworkcrystal'] "
+arbitrumDAO,Abracadabra,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6585,1500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['abracadabra'] 
+arbitrumDAO,Balancer,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6586,1200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['balancer','balancer_v2'] "
+arbitrumDAO,Dolomite,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6587,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['dolomite','dolomite_test'] "
+arbitrumDAO,Socket Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6588,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['socket','socket_v2'] "
+arbitrumDAO,Silo,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6589,1000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['silo','silo_finance'] "
+arbitrumDAO,Premia,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6590,900000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['premia','premia_blue','premia_v2'] "
+arbitrumDAO,Perennial,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6591,750000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['perennial','perennial_v2'] "
+arbitrumDAO,Umami Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6592,750000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['umami'] 
+arbitrumDAO,Lodestar,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6593,700000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['lodestar'] 
+arbitrumDAO,Gamma,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6594,750000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['gamma','gammaswap'] "
+arbitrumDAO,Angle,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6595,700000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['angle'] 
+arbitrumDAO,Galxe,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6596,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['project_galaxy'] 
+arbitrumDAO,Rysk,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6597,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['rysk','rysk_beyond','rysk_opyn','rysk_stip'] "
+arbitrumDAO,OpenOcean,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6598,500000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['openocean'] 
+arbitrumDAO,WINR,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6599,500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['legacy_winr','vested_winr','winr_protocol'] "
+arbitrumDAO,Timeswap,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6600,200000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['timeswap','timeswap_v2'] "
+arbitrumDAO,Tally,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6601,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], [] 
+arbitrumDAO,Good Entry,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6602,200000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['goodentry'] 
+arbitrumDAO,Stella,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6603,186000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stellaxyz'] 
 ,,,,,,,,,,
