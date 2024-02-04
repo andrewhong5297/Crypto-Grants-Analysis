@@ -9,7 +9,7 @@ Tracking and analyzing grants in the context of protocol activity. We want to ag
 To add a grant, go to the `/uploads` folder and add a row onto an existing CSV sheet or create a new one. Below is the generally accepted schema - it will then get uploaded into Dune as a table with the name `dune.cryptodatabytes.dataset_<upload_name>`.stuff
 
 | Column Name | Type | Description |
-| -- | -- |
+| ----------- | ---- | ----------- |
 | `grant_source` | varchar | name of the project/entity giving the grant |
 | `grantee` | varchar | name of the project/entity recieving the grant |
 | `dune_namespaces` | array(varchar) | namespace(s) of relevant decoded tables in Dune |
