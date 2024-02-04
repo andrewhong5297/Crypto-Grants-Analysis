@@ -20,7 +20,7 @@ To add a grant, go to the `/uploads` folder and add a row onto an existing CSV s
 | `grant_type` | varchar | retroactive, proactive (you can suggest others too) |
 | `grant_category` | varchar | purpose of the grant (growth, NFTs, creators, etc) |
 | `grant_distribution` | varchar | how the grant is given to the grantee (claim, airdrop, farm, vesting) |
-| `grant_blockchains` | varchar | blockchain that the grant was given out on |
+| `grant_blockchain` | varchar | blockchain that the grant was given out on |
 
 I've set up four types of issues right now:
 - `bugs`: This is for data quality issues like miscalculations or broken queries.
