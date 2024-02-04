@@ -6,7 +6,7 @@ Tracking and analyzing grants in the context of protocol activity. We want to ag
 
 ### For Contributors
 
-To add a grant, go to the `/uploads` folder and add a row onto an existing CSV sheet or create a new one. It will then get updated/uploaded into Dune as a table. There is currently one CSV called `evm_grants.csv` that can be queried on Dune as `dune.cryptodatabytes.dataset_evm_grants`. The schema we're using for grants right now is below:
+To add a grant, go to the `/uploads` folder and add a row onto an existing CSV sheet or create a new one. It will then get uploaded into Dune as a table. There is currently one CSV called `evm_grants.csv` that can be queried on Dune as `dune.cryptodatabytes.dataset_evm_grants`. The schema we're using for grants right now is below:
 
 | Column Name | Type | Description |
 | ----------- | ---- | ----------- |

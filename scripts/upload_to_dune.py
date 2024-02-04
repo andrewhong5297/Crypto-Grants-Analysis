@@ -26,8 +26,7 @@ for file in files:
     with open(os.path.join(uploads_path, file), 'r') as file:
         table = dune.upload_csv(
             data=str(file.read()),
-            table_name=file_name,
-            is_private=False
+            table_name=file_name
         )
         print(f'uploaded table "{file_name}"')
 
