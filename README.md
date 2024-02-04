@@ -2,11 +2,12 @@
 
 Tracking and analyzing grants in the context of protocol activity. We want to aggregate grants data from across the ecosystem and then tie it to onchain metrics and KPIs in a Dune dashboard. Link to dashboard.
 
-*This repo was created [using this template](https://github.com/duneanalytics/DuneQueryRepo) to [manage your Dune queries](https://dune.mintlify.app/api-reference/crud/endpoint/create) and any [CSVs as Dune tables](https://dune.mintlify.app/api-reference/upload/endpoint/upload).*
+>*This repo was created [using this template](https://github.com/duneanalytics/DuneQueryRepo) to [manage your Dune queries](https://dune.mintlify.app/api-reference/crud/endpoint/create) and any [CSVs as Dune tables](https://dune.mintlify.app/api-reference/upload/endpoint/upload).*
 
 ### For Contributors
 
-To add a grant, go to the `/uploads` folder and add a row onto an existing CSV sheet or create a new one. Below is the generally accepted schema - it will then get uploaded into Dune as a table with the name `dune.cryptodatabytes.dataset_<upload_name>`.stuff
+To add a grant, go to the `/uploads` folder and add a row onto an existing CSV sheet or create a new one. Below is the generally accepted schema - it will then get uploaded into Dune as a table with the format `dune.cryptodatabytes.dataset_<upload_name>`. There is currently one CSV called `evm_grants.csv` that can be queried on Dune as `dune.cryptodatabytes.dataset_evm_grants`.
+
 
 | Column Name | Type | Description |
 | ----------- | ---- | ----------- |
