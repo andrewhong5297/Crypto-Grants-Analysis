@@ -1,12 +1,27 @@
 # Crypto Grants Analysis
 
-Tracking and analyzing grants in the context of protocol activity.
+Tracking and analyzing grants in the context of protocol activity. We want to aggregate grants data from across the ecosystem and then tie it to onchain metrics and KPIs in a Dune dashboard. Link to dashboard.
 
-Link to dashboard
-
-Created using template to [manage your Dune queries](https://dune.mintlify.app/api-reference/crud/endpoint/create) and any [CSVs as Dune tables](https://dune.mintlify.app/api-reference/upload/endpoint/upload).
+> [!IMPORTANT]
+> This repo was created [using this template](https://github.com/duneanalytics/DuneQueryRepo) to [manage your Dune queries](https://dune.mintlify.app/api-reference/crud/endpoint/create) and any [CSVs as Dune tables](https://dune.mintlify.app/api-reference/upload/endpoint/upload).
 
 ### For Contributors
+
+To add grants, go to the `/uploads` folder and add a row onto an existing sheet or create a new one. Here is the generally accepted schema - it will then get uploaded into Dune as a table with the name `dune.cryptodatabytes.dataset_<upload_name>`.
+
+| Column Name | Type | Description |
+| -- | -- |
+| `grant_source` | varchar | name of the project/entity giving the grant |
+| `grantee` | varchar | name of the project/entity recieving the grant |
+| `dune_namespaces` | array(varchar) | namespace(s) of relevant decoded tables in Dune |
+| `grant_date` | timestamp | date of grant confirmation/approval |
+| `grant_token_address` | varbinary | address of the token that the grant is paid out in |
+| `grant_amount` | double | amount of the token given in the grant |
+| `grant_name` | varchar | name of grant cycle |
+| `grant_type` | varchar | retroactive, proactive (you can suggest others too) |
+| `grant_category` | varchar | purpose of the grant (growth, NFTs, creators, etc) |
+| `grant_distribution` | varchar | how the grant is given to the grantee (claim, airdrop, farm, vesting) |
+| `grant_blockchains` | array(varchar) | blockchain(s) that the grant was given out on |
 
 I've set up four types of issues right now:
 - `bugs`: This is for data quality issues like miscalculations or broken queries.
