@@ -1,9 +1,9 @@
 grant_source,grantee,grant_date,grant_token_address,grant_amount,grant_name,grant_type,grant_category,grant_distribution,grant_blockchains, dune_namespaces 
-arbitrum,Gains Network,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,4500000,STIP Round 1,proactive,growth,claim,['arbitrum'],
-arbitrum,Synapse,1/2/2024,0x912ce59144191c1204e64559fe8253a0e49e6549,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'],
-arbitrum,Stargate Finance,1/3/2024,0x912ce59144191c1204e64559fe8253a0e49e6550,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'],
-arbitrum,Wormhole,1/4/2024,0x912ce59144191c1204e64559fe8253a0e49e6551,1800000,STIP Round 1,proactive,growth,claim,['arbitrum'],
-arbitrum,Magpie,1/5/2024,0x912ce59144191c1204e64559fe8253a0e49e6552,1250000,STIP Round 1,proactive,growth,claim,['arbitrum'],
+arbitrum,Gains Network,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,4500000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['gains','gains_network','gains_network_usdc'] "
+arbitrum,Synapse,1/2/2024,0x912ce59144191c1204e64559fe8253a0e49e6549,2000000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['synapse','synapseerc20'] "
+arbitrum,Stargate Finance,1/3/2024,0x912ce59144191c1204e64559fe8253a0e49e6550,2000000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['stargate'] 
+arbitrum,Wormhole,1/4/2024,0x912ce59144191c1204e64559fe8253a0e49e6551,1800000,STIP Round 1,proactive,growth,claim,['arbitrum'], ['wormhole'] 
+arbitrum,Magpie,1/5/2024,0x912ce59144191c1204e64559fe8253a0e49e6552,1250000,STIP Round 1,proactive,growth,claim,['arbitrum']," ['magpie','magpie_beta'] "
 arbitrum,WOOFi,1/6/2024,0x912ce59144191c1204e64559fe8253a0e49e6553,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'],
 arbitrum,RabbitHole,1/7/2024,0x912ce59144191c1204e64559fe8253a0e49e6554,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'],
 arbitrum,dForce,1/8/2024,0x912ce59144191c1204e64559fe8253a0e49e6555,1000000,STIP Round 1,proactive,growth,claim,['arbitrum'],
