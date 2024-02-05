@@ -12,15 +12,17 @@ To add a grant, go to the `/uploads` folder and add a row onto an existing CSV s
 | ----------- | ---- | ----------- |
 | `grant_source` | varchar | name of the project/entity giving the grant |
 | `grantee` | varchar | name of the project/entity recieving the grant |
-| `dune_namespaces` | array(varchar) | namespace(s) of relevant decoded tables in Dune |
 | `grant_date` | timestamp | date of grant confirmation/approval |
 | `grant_token_address` | varbinary | address of the token that the grant is paid out in |
 | `grant_amount` | double | amount of the token given in the grant |
 | `grant_name` | varchar | name of grant cycle |
+| `grant_round` | int | round of grant |
 | `grant_type` | varchar | retroactive, proactive (you can suggest others too) |
 | `grant_category` | varchar | purpose of the grant (growth, NFTs, creators, etc) |
 | `grant_distribution` | varchar | how the grant is given to the grantee (claim, airdrop, farm, vesting) |
 | `grant_blockchain` | varchar | blockchain that the grant was given out on |
+| `dune_namespaces` | array(varchar) | namespace(s) of relevant decoded tables in Dune |
+| `dashboard_link` | varchar | link to dashboard that goes deeper on the protocol, preferrably in a grant context |
 
 I've set up four types of issues right now:
 - `bugs`: This is for data quality issues like miscalculations or broken queries.
