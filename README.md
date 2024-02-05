@@ -1,6 +1,6 @@
 # Crypto Grants Analysis
 
-Tracking and analyzing grants in the context of protocol activity. We want to aggregate grants data from across the ecosystem and then tie it to onchain metrics and KPIs in a Dune dashboard. Link to dashboard.
+Tracking and analyzing grants in the context of protocol activity. We want to aggregate grants data from across the ecosystem and then tie it to onchain metrics and KPIs [in this Dune dashboard](https://dune.com/cryptodatabytes/crypto-grants-analysis) 📊.
 
 >*This repo was created [using this template](https://github.com/duneanalytics/DuneQueryRepo) to [manage your Dune queries](https://dune.mintlify.app/api-reference/crud/endpoint/create) and any [CSVs as Dune tables](https://dune.mintlify.app/api-reference/upload/endpoint/upload).*
 
