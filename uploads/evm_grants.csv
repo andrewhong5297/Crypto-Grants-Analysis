@@ -5,7 +5,7 @@ arbitrumDAO,Stargate Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548
 arbitrumDAO,Wormhole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1800000,STIP,1,proactive,growth,claim,arbitrum,wormhole,
 arbitrumDAO,Magpie,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1250000,STIP,1,proactive,growth,claim,arbitrum,"magpie,magpie_beta",
 arbitrumDAO,WOOFi,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1000000,STIP,1,proactive,growth,claim,arbitrum,"woofi,woofi_earn,woofi_staking_v2,woofi_swap",
-arbitrumDAO,RabbitHole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1000000,STIP,1,proactive,growth,claim,arbitrum,rabbithole,
+arbitrumDAO,RabbitHole,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1000000,STIP,1,proactive,growth,claim,arbitrum,rabbithole,https://dune.com/rabbithole/stip
 arbitrumDAO,dForce,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1000000,STIP,1,proactive,growth,claim,arbitrum,dforcearb,
 arbitrumDAO,Vela,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1000000,STIP,1,proactive,growth,claim,arbitrum,"vela,vela_exchange",
 arbitrumDAO,Shell Protocol,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,750000,STIP,1,proactive,growth,claim,arbitrum,shellprotocol,
@@ -34,7 +34,7 @@ arbitrumDAO,JonesDAO,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,2000000
 arbitrumDAO,Pendle,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,2000000,STIP,1,proactive,growth,claim,arbitrum,pendle,
 arbitrumDAO,Trader Joe,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1510000,STIP,1,proactive,growth,claim,arbitrum,"trader_joe,trader_joe_v2_1",
 arbitrumDAO,Dopex,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1500000,STIP,1,proactive,growth,claim,arbitrum,"dopex,dopex_active,dopex_protocol,dopex_v2",
-arbitrumDAO,Frax Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1500000,STIP,1,proactive,growth,claim,arbitrum,"frax,fraxfinance,fraxlend,fraxswap",
+arbitrumDAO,Frax Finance,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1500000,STIP,1,proactive,growth,claim,arbitrum,"frax,fraxfinance,fraxlend,fraxswap",https://dune.com/paulapivat/arbitrum-stip-with-frax-finance
 arbitrumDAO,KyberSwap,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1500000,STIP,1,proactive,growth,claim,arbitrum,"kyber,kyberswap,kybernetworkcrystal",
 arbitrumDAO,Abracadabra,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1500000,STIP,1,proactive,growth,claim,arbitrum,abracadabra,
 arbitrumDAO,Balancer,1/1/2024,0x912ce59144191c1204e64559fe8253a0e49e6548,1200000,STIP,1,proactive,growth,claim,arbitrum,"balancer,balancer_v2",
