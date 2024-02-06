@@ -1,6 +1,6 @@
 -- part of a query repo
--- query name: Arbitrum Grants Summary
--- query link: https://dune.com/queries/3405929
+-- query name: Optimism Grants Summary
+-- query link: https://dune.com/queries/3410549
 
 
 with 
@@ -13,7 +13,7 @@ with
             , row_number() over (partition by c.address order by created_at desc) as latest
         FROM dune.cryptodatabytes.dataset_evm_grants g
         LEFT JOIN evms.contracts c ON g.grant_blockchain = c.blockchain and contains(split(g.dune_namespaces,','),c.namespace)
-        WHERE g.grant_blockchain = 'arbitrum'
+        WHERE g.grant_blockchain = 'optimism'
     )
     
     , ordered_traces as (
@@ -28,9 +28,9 @@ with
             , tx.gas_price
             --we only want to keep the highest order trace call by a grantee contract. We do want to keep potential multi-calls so we use rank instead of row_number().
             , rank() over (partition by gc.grantee, tr.tx_hash order by cardinality(trace_address) asc) as trace_order
-        FROM arbitrum.traces tr 
+        FROM optimism.traces tr 
         JOIN grant_contracts gc ON tr.to = gc.address
-        JOIN arbitrum.transactions tx ON tx.hash = tr.tx_hash
+        JOIN optimism.transactions tx ON tx.hash = tr.tx_hash
         WHERE tr.block_time >= now() - interval '30' day
         AND tx.block_time >= now() - interval '30' day
         AND gc.latest = 1
@@ -44,7 +44,7 @@ with
             , sum(tx.gas_used*tx.gas_price/1e18) as gas_fees_eth_30d
         FROM evms.transactions tx
         WHERE tx.block_time >= now() - interval '30' day
-        AND blockchain IN ('arbitrum') --add all arbitrum chains later
+        AND blockchain IN ('optimism') --add all optimism chains later
         GROUP BY 1
     )
     
@@ -55,8 +55,8 @@ with
                 , tx."from" as user
                 , count(distinct tx.hash) as txs
             FROM grant_contracts gc
-            JOIN arbitrum.traces tr ON tr.to = gc.address AND gc.grant_blockchain = 'arbitrum'
-            JOIN arbitrum.transactions tx ON tx.hash = tr.tx_hash AND tx.block_time = tr.block_time
+            JOIN optimism.traces tr ON tr.to = gc.address AND gc.grant_blockchain = 'optimism'
+            JOIN optimism.transactions tx ON tx.hash = tr.tx_hash AND tx.block_time = tr.block_time
             WHERE latest = 1
             AND tr.block_time >= now() - interval '30' day
             AND tx.block_time >= now() - interval '30' day
@@ -85,7 +85,7 @@ SELECT
 FROM dune.cryptodatabytes.dataset_evm_grants gc
 LEFT JOIN ordered_traces tr ON tr.grantee = gc.grantee AND tr.trace_order = 1
 LEFT JOIN quality_users qu ON qu.grantee = gc.grantee
-LEFT JOIN prices.usd p ON p.blockchain = 'arbitrum'
+LEFT JOIN prices.usd p ON p.blockchain = 'optimism'
     and p.contract_address = gc.grant_token_address
     and p.minute = DATE_PARSE(gc.grant_date, '%m/%d/%Y')
 LEFT JOIN blockchain_summary blk ON blk.blockchain = gc.grant_blockchain --potential issues if protocol is deployed on multiple chains. How to handle?

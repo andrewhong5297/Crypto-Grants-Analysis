@@ -1,6 +1,6 @@
 -- part of a query repo
--- query name: Arbitrum Grants Charts
--- query link: https://dune.com/queries/3405541
+-- query name: Optimism Grants Charts
+-- query link: https://dune.com/queries/3410550
 
 
 with 
@@ -27,9 +27,9 @@ with
             , tx.gas_price
             --we only want to keep the highest order trace call by a grantee contract. We do want to keep potential multi-calls so we use rank instead of row_number().
             , rank() over (partition by gc.grantee, tr.tx_hash order by cardinality(trace_address) asc) as trace_order
-        FROM arbitrum.traces tr 
+        FROM optimism.traces tr 
         JOIN grant_contracts gc ON tr.to = gc.address
-        JOIN arbitrum.transactions tx ON tx.hash = tr.tx_hash
+        JOIN optimism.transactions tx ON tx.hash = tr.tx_hash
         WHERE tr.block_time >= timestamp '2023-12-01 00:00:00'
         AND tx.block_time >= timestamp '2023-12-01 00:00:00'
         AND gc.latest = 1

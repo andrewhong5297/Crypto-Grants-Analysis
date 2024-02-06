@@ -1,13 +1,15 @@
 -- part of a query repo
--- query name: All Grants
--- query link: https://dune.com/queries/3405947
+-- query name: Arbitrum Grants
+-- query link: https://dune.com/queries/3408002
 
 
 SELECT
 grant_source
 , grant_blockchain
-, count(distinct grant_name || cast(grant_round as varchar)) as grant_rounds
-, p.symbol
+, DATE_PARSE(gc.grant_date, '%m/%d/%Y') as grant_date
+, grant_name
+, grant_round
+, p.symbol as grant_token
 , sum(grant_amount) as grant_amount
 , sum(grant_amount*p.price) as grant_amount_usd
 , count(distinct grantee) as grantees
@@ -16,5 +18,6 @@ FROM dune.cryptodatabytes.dataset_evm_grants gc
 LEFT JOIN prices.usd p ON p.blockchain = gc.grant_blockchain 
     and p.contract_address = gc.grant_token_address
     and p.minute = DATE_PARSE(gc.grant_date, '%m/%d/%Y')
-GROUP BY grant_source, grant_blockchain, p.symbol
-ORDER BY grant_amount_usd desc
+WHERE grant_blockchain = 'arbitrum'
+GROUP BY 1, 2, 3, 4, 5, 6
+ORDER BY 3 desc
