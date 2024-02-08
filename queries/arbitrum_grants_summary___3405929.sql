@@ -89,5 +89,6 @@ LEFT JOIN prices.usd p ON p.blockchain = 'arbitrum'
     and p.contract_address = gc.grant_token_address
     and p.minute = DATE_PARSE(gc.grant_date, '%m/%d/%Y')
 LEFT JOIN blockchain_summary blk ON blk.blockchain = gc.grant_blockchain --potential issues if protocol is deployed on multiple chains. How to handle?
+WHERE gc.grant_blockchain = 'arbitrum'
 GROUP BY 1,2,qu.q_users_30d
 order by grant_amount_usd desc
