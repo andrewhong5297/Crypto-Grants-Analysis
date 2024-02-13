@@ -25,6 +25,7 @@ with
             , tr.block_time
             , tx."from" as tx_from
             , tx.gas_price
+            , tx.l1_fee
             --we only want to keep the highest order trace call by a grantee contract. We do want to keep potential multi-calls so we use rank instead of row_number().
             , rank() over (partition by gc.grantee, tr.tx_hash order by cardinality(trace_address) asc) as trace_order
         FROM optimism.traces tr 
@@ -40,7 +41,7 @@ SELECT
     , grantee
     , approx_distinct(tx_hash) as txs
     , approx_distinct(tx_from) as users
-    , sum(gas_used*gas_price/1e18) as gas_fees_eth
+    , sum((tx.gas_price*tx.gas_used + tx.l1_fee)/1e18) as gas_fees_eth
 FROM ordered_traces
 WHERE trace_order = 1
 GROUP BY 1,2

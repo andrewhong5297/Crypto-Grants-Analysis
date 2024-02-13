@@ -25,7 +25,7 @@ with
             , tr.trace_address
             , tr.block_time
             , tx."from" as tx_from
-            , tx.gas_price
+            , tx.effective_gas_price
             --we only want to keep the highest order trace call by a grantee contract. We do want to keep potential multi-calls so we use rank instead of row_number().
             , rank() over (partition by gc.grantee, tr.tx_hash order by cardinality(trace_address) asc) as trace_order
         FROM arbitrum.traces tr 
@@ -41,7 +41,7 @@ with
             blockchain as blockchain
             , approx_distinct(tx.hash) as txs_30d
             , approx_distinct(tx."from") as users_30d
-            , sum(tx.gas_used*tx.gas_price/1e18) as gas_fees_eth_30d
+            , sum(tx.effective_gas_price*tx.gas_used/1e18) as gas_fees_eth_30d
         FROM evms.transactions tx
         WHERE tx.block_time >= now() - interval '30' day
         AND blockchain IN ('arbitrum') --add all arbitrum chains later
@@ -79,8 +79,8 @@ SELECT
     , COALESCE(approx_distinct(tr.tx_hash),0) as txs_30d
     , COALESCE(approx_distinct(tr.tx_from),0) as users_30d
     , COALESCE(qu.q_users_30d,0) as q_users_30d
-    , COALESCE(sum(tr.gas_used*tr.gas_price/1e18),0) as gas_fees_eth_30d
-    , COALESCE(sum(cast(tr.gas_used*tr.gas_price/1e18 as double)/cast(blk.gas_fees_eth_30d as double)),0) as percent_total_fees_30d
+    , COALESCE(sum(tr.gas_used*tr.effective_gas_price/1e18),0) as gas_fees_eth_30d
+    , COALESCE(sum(cast(tr.gas_used*tr.effective_gas_price/1e18 as double)/cast(blk.gas_fees_eth_30d as double)),0) as percent_total_fees_30d
     , array_agg(distinct grant_name || ' (#' || cast(grant_round as varchar) || ')') as grants
 FROM dune.cryptodatabytes.dataset_evm_grants gc
 LEFT JOIN ordered_traces tr ON tr.grantee = gc.grantee AND tr.trace_order = 1

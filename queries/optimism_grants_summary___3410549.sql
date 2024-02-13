@@ -26,6 +26,7 @@ with
             , tr.block_time
             , tx."from" as tx_from
             , tx.gas_price
+            , tx.l1_fee
             --we only want to keep the highest order trace call by a grantee contract. We do want to keep potential multi-calls so we use rank instead of row_number().
             , rank() over (partition by gc.grantee, tr.tx_hash order by cardinality(trace_address) asc) as trace_order
         FROM optimism.traces tr 
@@ -41,7 +42,7 @@ with
             blockchain as blockchain
             , approx_distinct(tx.hash) as txs_30d
             , approx_distinct(tx."from") as users_30d
-            , sum(tx.gas_used*tx.gas_price/1e18) as gas_fees_eth_30d
+            , sum((tx.gas_price*tx.gas_used + tx.l1_fee)/1e18) as gas_fees_eth_30d
         FROM evms.transactions tx
         WHERE tx.block_time >= now() - interval '30' day
         AND blockchain IN ('optimism') --add all optimism chains later
